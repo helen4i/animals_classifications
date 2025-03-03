@@ -20,6 +20,9 @@ This project implements a complete pipeline that verifies whether an animal ment
 │   ├── Tiger-1.jpg               # Demo image 1
 │   ├── eleph.jpeg                # Demo image 2
 │
+├── ner_model/                    # Folder containing trained NER model files (to be downloaded)
+├── animal_classifier_model.keras # Trained image classification model (to be downloaded)
+│
 ├── requirements.txt              # Required dependencies
 ├── demo_animal.ipynb             # Jupyter Notebook demonstrating the pipeline
 ├── README.md                     # Main project documentation
@@ -46,6 +49,17 @@ To set up the project, follow these steps:
 ```bash
     pip install -r requirements.txt
 ```
+
+## Pre-Trained Models
+If you want to use my already trained models instead of training from scratch, please follow these steps:
+1. **Download the trained image classification model** from the following link: [animal_classifier_model.keras](https://github.com/helen4i/animals_classifications/releases/download/v1.0/animal_classifier_model.keras).
+   - Place the downloaded `animal_classifier_model.keras` file in the root folder.
+2. **Download the trained NER model folder** from this link: [ner_model](https://github.com/helen4i/animals_classifications/releases/download/v1.0/ner_model.zip).
+   - Extract and place the entire `ner_model` folder in the root directory.
+
+At the end, your project directory should contain:
+- `animal_classifier_model.keras` in the root folder.
+- `ner_model/` folder in the root, containing all necessary files for the NER model.
 
 ## Dataset
 The datasets used in this project are:
