@@ -1,0 +1,13 @@
+# Virtual Environment
+venv/
+
+# Datasets
+anim_dataset/
+
+# Models
+ner_model/
+animal_classifier_model.keras
+
+# System Files
+.DS_Store
+.ipynb_checkpoints
