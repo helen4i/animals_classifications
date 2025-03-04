@@ -9,8 +9,8 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 batch_size = 16
 
 # Directory paths
-train_data_dir = "./anim_dataset/Training Data"
-validation_data_dir = "./anim_dataset/Validation Data"
+train_data_dir = "./anim_dataset/Training Data/Training Data"
+validation_data_dir = "./anim_dataset/Validation Data/Validation Data"
 
 # Data augmentation and normalization
 train_datagen = ImageDataGenerator(
